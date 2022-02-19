@@ -1,3 +1,24 @@
+:root{
+    --box-shadow: rgb(0 0 0 / 0.2);
+    font-family: 'Montserrat', sans-serif;
+    --ca-primary-color : #762D8B ;
+    --ca-primary-color-lighter : #A846C3 ;
+    --ca-secondary-color : #65B891 ;
+    --ca-hover-color : #f0fff0 ;
+    --ca-icon-content-bg-color: #eb2f2fe3;
+    --ca-dark-bg-color: #393734;
+    --ca-light-bg-color: #f2f2f2;
+    --danger-text: #ff0000;
+
+
+}
+*{
+    font-size : 100% ;
+    margin : 0 ;
+    box-sizing: border-box;
+}
+
+
 .grid{
     display : grid;
     width : 100%;
@@ -182,4 +203,14 @@
 }
 .list-inline{
     display: inline;
+}
+
+/* button */
+.btn-primary{
+    background-color: var(--ca-primary-color);
+    color : white ;
+}
+.btn-primary:hover{
+    background-color: var(--ca-primary-color-lighter);
+    color : white ;
 }
