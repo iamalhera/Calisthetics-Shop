@@ -1,0 +1,156 @@
+/* @import url('https://calisthetics-ui.netlify.app/src/cali-UI.css'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+@import url('/src/pages/common.css');
+*{
+    font-size : 100% ;
+    margin : 0 ;
+    box-sizing: border-box;
+}
+
+:root{
+    --box-shadow: rgb(0 0 0 / 0.2);
+    font-family: 'Montserrat', sans-serif;
+    --ca-primary-color : #762D8B ;
+    --ca-primary-color-lighter : #A846C3 ;
+    --ca-secondary-color : #65B891 ;
+    --ca-hover-color : #f0fff0 ;
+    --ca-icon-content-bg-color: #eb2f2fe3;
+    --ca-dark-bg-color: #393734;
+
+}
+
+
+main{
+    display: grid ;
+    grid-template-rows: auto auto 1fr 1fr auto;
+    min-height : 100vh ;
+    gap : 1rem ;
+}
+
+
+/* header  */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width : 100% ;
+    box-shadow: 0 5px 3px -3px var(--box-shadow);
+}
+.header-left-side{
+    margin-left: 1rem ;
+    padding : 1rem ;
+    display: flex;
+    align-items : center ;
+    gap : 0.5rem ;
+}
+.font-logo{
+    font-size : 2.5rem ;
+    font-weight: 600;
+    color: var(--ca-primary-color); 
+}
+.btn{
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 200;
+    color : var(--ca-primary-color);
+    background-color: white;
+    border : none ;
+    cursor: pointer;
+}
+.btn:hover{
+    color : var(--ca-secondary-color) ;
+    background-color: var(--ca-hover-color);
+}
+.btn-link{
+    text-decoration: none;
+    color : var(--ca-primary-color);
+}
+
+.header-search{
+    background-color : var(--ca-hover-color);
+    padding : 0.5rem 1rem ;
+}
+.search-bar{
+    background-color: var(--ca-hover-color);
+    padding : 0.3rem ;
+    border: none;
+}
+.header-right-side{
+    gap : rem ;
+    margin-right : 0.5rem ;
+}
+.badge-icon{
+    position: relative;
+}
+
+.badge-content{
+    position: absolute;
+    background-color : var(--ca-icon-content-bg-color);
+    padding : 0.8rem ;
+    height : 0.5rem ;
+    width : 0.5rem ;
+    font-size : 0.8rem ;
+    border-radius : 50% ;
+    top : -1rem ;
+    right : -1rem ;
+    color : white ;
+
+}
+
+
+
+
+/* hero-section  */
+.hero-section{
+
+}
+.hero-img img{
+    width : 65% ;
+}
+.hero-overlay{
+    position: absolute;
+    color : white ;
+    top : 17rem ;
+}
+.hero-1{
+    position: relative;
+}
+.btn-primary{
+    background-color: var(--ca-primary-color);
+    color : white ;
+}
+.btn-primary:hover{
+    background-color: var(--ca-primary-color-lighter);
+    color : white ;
+}
+
+
+/* Category */
+.category-item{
+    gap : 1.5rem ;
+    padding : 1rem ;
+    margin : 1rem ;
+    justify-content: center;
+}
+.category-item:hover{
+    background-color:var(--ca-hover-color);
+}
+.category-item-img{
+    width: 20rem;
+    height: 20rem;
+}
+
+/* Footer */
+.dark-bg{
+    background-color: var(--ca-dark-bg-color);
+}
+.page-footer{
+    color : white ;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-github{
+    color : white ;
+}
