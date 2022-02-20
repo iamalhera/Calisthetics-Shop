@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/pages/homepage.css">
+    <link rel="stylesheet" href="/src/pages/signup/signup.css">
     <script src="https://kit.fontawesome.com/cb91afed1c.js" crossorigin="anonymous"></script>
-    <title>Calisthetics Shop</title>
+    <title>Sign Up</title>
 </head>
 
 <body>
-    <main class="homepage-main-container">
+    <main class="signup-main-container">
 
 
         <!-- Header navigation -->
@@ -50,59 +50,48 @@
                 </div>
             </header>
         </div>
+    
+        <!-- Sign Up Section -->
+        <div class="flex-center margin-tb-lg">
+            <form class="form form-signup padder-md">
+                <div class="form-header">
+                    <h4>Sign Up</h4>
+                </div>
 
-        <!-- Hero Section -->
-        <div class="hero-section">
-            <div class="hero-img hero-1 flex-center">
-                <img class="" src="/src/assets/hero-image.jpg" alt="Hero Section Image"></img>
-                <div class="hero-overlay flex-column">
-                    <h1>WORK ETHICS OF ATHELETE</h1>
-                    <div class="text-md-size margin-tb-sm">find the right attitude and products of top fitness coach
-                    </div>
-                    <button class="btn btn-primary">Shop Accessories</button>
+                <div class="input-row">
+                    <label class="input-label text-md-size">Email: </label>
+                    <input type="text" name="email" placeholder="Enter your mail address" class="input-field ">
                 </div>
-            </div>
-        </div>
 
-        <!-- Featured Category -->
-        <div class="featured-category flex-column">
-            <div class="flex-column padder-md">
-                <p class="h1">Featured Category</p>
-                <p class="text-rg-size">Check out our favourite categories for your fitness</p>
-            </div>
-            <div class="grid grid-2 ">
-                <div class="flex-column category-item">
-                    <img class="category-item-img" src="/src/assets/apparel-2.jpg" alt="Apparel"></img>
-                    <p class="text-lg-size text-bold">APPAREL</p>
+                <div class="input-row">
+                    <label class="input-label text-md-size">Password: </label>
+                    <input type="password" placeholder="******" class="input-field" >
                 </div>
-                <div class="flex-column category-item">
-                    <img class="category-item-img" src="/src/assets/equipment.jpg" alt="Equipment"></img>
-                    <p class="text-lg-size text-bold">TRAINING EQUIPMENT</p>
-                </div>
-            </div>
-        </div>
 
-        <!-- New Release -->
-        <div class="featured-category flex-column">
-            <div class="flex-column padder-md">
-                <p class="h1">New Release</p>
-                <p class="text-rg-size">Check out our new release, The quickest way to top shape</p>
-            </div>
-            <div class="grid grid-3 ">
-                <div class="flex-column category-item">
-                    <img class="category-item-img" src="/src/assets/new-release-1.jpg" alt="Dip Station"></img>
-                    <p class="text-lg-size text-bold">CALISTHETICS DIP STATION</p>
+                <div class="input-row">
+                    <label class="input-label text-md-size">Confirm Password: </label>
+                    <input type="password" placeholder="******" class="input-field" >
                 </div>
-                <div class="flex-column category-item">
-                    <img class="category-item-img" src="/src/assets/new-release-2.png" alt="pull up bar"></img>
-                    <p class="text-lg-size text-bold text-align-center">WALL MOUNTED PULL UP BAR</p>
+
+                <div class="input-row">
+                    <label class="input-label">
+                        <input type="checkbox" class="input checkbox-input ">
+                        <span class="checkbox-text">I accept all terms and condition</span>              
+                    </label>
+
                 </div>
-                <div class="flex-column category-item">
-                    <img class="category-item-img" src="/src/assets/new-release-3.png" alt="weighted vest"></img>
-                    <p class="text-lg-size text-bold">WEIGHTED VEST (10KG WT)</p>
+
+
+                <div class="input-row">
+                    <button class="btn btn-primary">Register</button>
                 </div>
-            </div>
+
+                <div class="form-footer">
+                    <a href="/src/pages/signin/signin.html" class="new-ac-link">Already have an Account.<i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+            </form>
         </div>
+        
 
         <!-- Footer -->
         <footer class="page-footer dark-bg flex-column padder-tb-lg">

@@ -1,0 +1,84 @@
+
+/* header  */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width : 100% ;
+    box-shadow: 0 5px 3px -3px var(--box-shadow);
+}
+.header-left-side{
+    margin-left: 1rem ;
+    padding : 1rem ;
+    display: flex;
+    align-items : center ;
+    gap : 0.5rem ;
+}
+.font-logo{
+    font-size : 2.5rem ;
+    font-weight: 600;
+    color: var(--ca-primary-color); 
+}
+.btn{
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 200;
+    border : none ;
+    cursor: pointer;
+}
+
+.btn-link{
+    text-decoration: none;
+    color : var(--ca-primary-color);
+    background-color : var(--white-color);
+}
+.btn-link:hover{
+    color : var(--ca-secondary-color) ;
+    background-color: var(--ca-hover-color);
+}
+
+.header-search{
+    background-color : var(--ca-hover-color);
+    padding : 0.5rem 1rem ;
+}
+.search-bar{
+    background-color: var(--ca-hover-color);
+    padding : 0.3rem ;
+    border: none;
+}
+.header-right-side{
+    gap : rem ;
+    margin-right : 0.5rem ;
+}
+.badge-icon{
+    position: relative;
+}
+
+.badge-content{
+    position: absolute;
+    background-color : var(--ca-icon-content-bg-color);
+    padding : 0.8rem ;
+    height : 0.5rem ;
+    width : 0.5rem ;
+    font-size : 0.8rem ;
+    border-radius : 50% ;
+    top : -1rem ;
+    right : -1rem ;
+    color : white ;
+
+}
+
+/* Footer */
+.dark-bg{
+    background-color: var(--ca-dark-bg-color);
+}
+.page-footer{
+    color : white ;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-github{
+    color : white ;
+}
