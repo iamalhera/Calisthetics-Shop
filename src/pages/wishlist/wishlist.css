@@ -1,0 +1,15 @@
+@import url('/src/pages/common.css');
+@import url('/styles.css');
+
+.img-parent-dismiss{
+    position: relative;
+}
+.card-dismiss{
+    position: absolute;
+    top : 1.5rem ;
+    right: 1.5rem ;
+}
+.card-dismiss:hover{
+    color : var(--danger-text);
+    cursor: pointer;
+}
