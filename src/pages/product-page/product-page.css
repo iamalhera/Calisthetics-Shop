@@ -1,0 +1,42 @@
+@import url('/src/pages/homepage.css');
+@import url('/src/pages/common.css');
+.container-header{
+    grid-area: header;
+}
+ .product-page-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header header"
+    "aside content content content content"
+    "footer footer footer footer footer";
+    min-height: 100vh;
+}
+.page-footer{
+    grid-area: footer;
+}
+.product-page{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.sidebar-section{
+    grid-area: aside;
+}
+.filter-text{
+    font-size : 1.5rem ;
+    margin-left : 5px ;
+}
+.slider-container{
+    margin-left : 8px;
+    padding : 8px 0 ;
+}
+
+.product-section{
+    margin-top : 1.5rem ;
+    margin-left : 1.5rem ;
+    grid-area: content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

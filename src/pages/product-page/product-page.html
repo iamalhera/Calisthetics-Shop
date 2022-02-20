@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/pages/product-page/product-page.css">
+    <script src="https://kit.fontawesome.com/cb91afed1c.js" crossorigin="anonymous"></script>
+    <title>Calisthetics Shop</title>
+</head>
+
+<body>
+    <main class="product-page-main-container">
+
+
+        <!-- Header navigation -->
+        <div class="container-header">
+            <header class="header">
+                <div class="header-left-side">
+                    <a class="font-logo" href="/index.html">Cali Shop</a>
+                    <a class="btn btn-link" href="#">Shop</a>
+                </div>
+                <div class="header-search">
+                    <i class="fa fa-search fa-md" aria-hidden="true"></i>
+                    <input type="text" class="search-bar" placeholder="Search">
+                </div>
+                <div class="header-right-side flex-center">
+                    <a href="/src/pages/Profile/profile.html">
+                        <button class="btn btn-link">
+                            <i class="far fa-user-circle fa-2x badge-icon" aria-hidden="true">
+                            </i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-link">
+                            <i class="fas fa-shopping-basket fa-2x badge-icon" aria-hidden="true">
+                                <span class="badge-content flex-center">2</span>
+                            </i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-link">
+                            <i class="far fa-heart fa-2x badge-icon" aria-hidden="true">
+                                <span class="badge-content flex-center">8</span>
+                            </i>
+                        </button>
+                    </a>
+
+                </div>
+            </header>
+        </div>
+
+        <!-- Side-Bar Container -->
+        <div class="sidebar-section">
+                <aside class="product-sidebar">
+
+						<div class="flex-row space-bw padder-sm">
+							<div class="filter-text text-md-size text-bold">Filters</div>
+							<button class="btn btn-link">Clear</button>
+						</div>
+						<hr>
+						<div class="list gap-sm">
+							<label class="text-md-size text-bold" for="rate">Price</label>
+							<div class="slider-container">
+								<label for="rate">500</label>
+								<input type="range" name="rate" min="500" max="4000">
+								<label for="rate">4000</label>
+							</div>
+						</div>
+						<hr>
+						<ul class="list gap-sm list-style-none">
+							<p class="text-bold">Category</p>
+							<li class="list-item">
+								<label>
+									<input type="checkbox">
+									<span>Apparel</span>
+								</label>
+							</li>
+							<li class="list-item">
+								<label>
+									<input type="checkbox">
+									<span>Training Equipment</span>
+								</label>
+							</li>
+							
+						</ul>
+						<hr>
+						<ul class="list gap-sm list-style-none">
+							<p class="text-bold">Rating</p>
+							<li class="list-item">
+								<label>
+									<input type="radio" name="rating">
+									<span>4 Star and above</span>
+								</label>
+							</li>
+							<li class="list-item">
+								<label>
+									<input type="radio" name="rating">
+									<span>3 Star and above</span>
+								</label>
+							</li>
+							<li class="list-item">
+								<label>
+									<input type="radio" name="rating">
+									<span>2 Star and above</span>
+								</label>
+							</li>
+							<li class="list-item">
+								<label>
+									<input type="radio" name="rating">
+									<span>1 Star and above</span>
+								</label>
+							</li>
+						</ul>
+						<hr>
+						<ul class="list gap-sm list-style-none">
+							<p class="text-bold">Sort By</p>
+							<li class="list-item">
+								<label>
+									<input type="radio" name="sorting">
+									<span>Price - Low to High</span>
+								</label>
+							</li>
+							<li class="list-item">
+								<label>
+									<input type="radio" name="sorting">
+									<span>Price - High to Low</span>
+								</label>
+							</li>
+						</ul>
+                </aside>
+        </div>
+
+        <!-- Product Section -->
+        <div class="product-section">
+
+            <div class="card card-vertical">
+                <img src="/src/assets/apparel-2.jpg" alt="T-Shirt" class="img-responsive"/>
+                <div class="padder-sm flex-column">
+                    <div class="card-description-primary">
+                        <p class="text-md-size text-bold">Special Homo Sapian T-Shirt</p>
+                        <p class="card-primary-text">by Calisthetics</p>
+                        <p class="card-price">Price : 699/-</p>
+                    </div>
+                    <div class="card-cta">
+                        <i class="far fa-heart fa-2x wishlist-icon" title="add to wishlist" aria-hidden="true"></i>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <img src="/src/assets/equipment.jpg" alt="Workout Mat" class="img-responsive"/>
+                <div class="padder-sm flex-column">
+                    <div class="card-description-primary">
+                        <p class="text-md-size text-bold">Calisthetics Workout Mat</p>
+                        <p class="card-primary-text">by Calisthetics</p>
+                        <p class="card-price">Price : 2999/-</p>
+                    </div>
+                    <div class="card-cta">
+                        <i class="far fa-heart fa-2x wishlist-icon" title="add to wishlist" aria-hidden="true"></i>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <img src="/src/assets/new-release-3.png" alt="Weighted Vest" class="img-responsive"/>
+                <div class="padder-sm flex-column">
+                    <div class="card-description-primary">
+                        <p class="text-md-size text-bold">Weighted Vest (10Kg WT)</p>
+                        <p class="card-primary-text">by Calisthetics</p>
+                        <p class="card-price">Price : 2500/-</p>
+                    </div>
+                    <div class="card-cta">
+                        <i class="far fa-heart fa-2x wishlist-icon" title="add to wishlist" aria-hidden="true"></i>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <img src="/src/assets/new-release-2.png" alt="Wall Mounted PullUp Bar" class="img-responsive"/>
+                <div class="padder-sm flex-column">
+                    <div class="card-description-primary">
+                        <p class="text-md-size text-bold">Wall Mounted Pull Up Bar</p>
+                        <p class="card-primary-text">by Calisthetics</p>
+                        <p class="card-price">Price : 999/-</p>
+                    </div>
+                    <div class="card-cta">
+                        <i class="far fa-heart fa-2x wishlist-icon" title="add to wishlist" aria-hidden="true"></i>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <img src="/src/assets/new-release-3.png" alt="weighted vest" class="img-responsive"/>
+                <div class="padder-sm flex-column">
+                    <div class="card-description-primary">
+                        <p class="text-md-size text-bold">Weighted Vest (10Kg WT)</p>
+                        <p class="card-primary-text">by Calisthetics</p>
+                        <p class="card-price">Price : 2500/-</p>
+                    </div>
+                    <div class="card-cta">
+                        <i class="far fa-heart fa-2x wishlist-icon" title="add to wishlist" aria-hidden="true"></i>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-vertical">
+                <img src="/src/assets/new-release-1.jpg" alt="1 pair of paralettes" class="img-responsive"/>
+                <div class="padder-sm flex-column">
+                    <div class="card-description-primary">
+                        <p class="text-md-size text-bold">Calisthetics Dip Station</p>
+                        <p class="card-primary-text">by Calisthetics</p>
+                        <p class="card-price">Price : 999/-</p>
+                    </div>
+                    <div class="card-cta">
+                        <i class="far fa-heart fa-2x wishlist-icon" title="add to wishlist" aria-hidden="true"></i>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <!-- Footer -->
+        <footer class="page-footer dark-bg flex-column padder-tb-lg">
+            <p>Made with ♥ by Al Hera Ahmad</p>
+            <ul class="list-deco-none margin-tb-md">
+                <li class="list-inline">
+                    <a href="https://twitter.com/gentleshah" target="_blank">
+                        <i class="fab fa-twitter text-lg-size"></i>
+                    </a>
+                </li>
+                <li class="list-inline padder-lr-md">
+                    <a href="https://github.com/iamalhera" target="_blank">
+                        <i class="fab fa-github text-lg-size"></i>
+                    </a>
+                </li>
+                <li class="list-inline">
+                    <a href="https://www.linkedin.com/in/gentleshah/" target="_blank">
+                        <i class="fab fa-linkedin text-lg-size"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="margin-sm">© 2021 Cali Shop </p>
+        </footer>
+
+    </main>
+
+
+</body>
+
+</html>
