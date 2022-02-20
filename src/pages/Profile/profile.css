@@ -1,0 +1,31 @@
+@import url('/src/pages/homepage.css');
+@import url('/src/pages/common.css');
+
+.page-footer{
+    position: fixed;
+    bottom: 0;
+    width : 100%;
+}
+
+.container-account{
+    margin: auto;
+    padding: 2rem 3rem ;
+    border: 1px solid var(--ca-primary-color-lighter)  ;
+    border-radius: 5px;
+}
+.account-toggle .btn-active{
+    background-color : var(--ca-hover-color);
+}
+.account-toggle{
+    padding : 2rem ;
+    border-bottom: 1px solid;
+}
+
+.avatar-sm{
+    height: 10rem;
+    width: 10rem ;
+}
+
+.img-rounded{
+    border-radius : 50% ;
+}
