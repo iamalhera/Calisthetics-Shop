@@ -258,10 +258,19 @@
     margin : 1.5rem ;
 }
 .card-vertical {
-    width: 300px;
+    max-width: 300px;
     height: 450px;
     display: flex;
     flex-direction: column;
+}
+.card-horizontal {
+    max-width: 540px;
+    height : 250px;
+    display: flex ;
+}
+.card-hz-img{
+    height : 250px;
+    width : 250px ;
 }
 .img-responsive{
     height: 100%;

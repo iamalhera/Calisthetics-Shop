@@ -1,0 +1,21 @@
+@import url('/src/pages/common.css');
+@import url('/styles.css');
+
+.btn-count-icon{
+    border-radius: 50%;
+}
+.btn-remove{
+    background-color : var(--danger-text);
+}
+.btn-remove:hover{
+    background-color: var(--white-color);
+    color : var(--danger-text);
+    border: 1px solid var(--danger-text);
+}
+
+.billing-card{
+    max-width : 25rem ;
+}
+.btn-place-order{
+    width : 80%;
+}
