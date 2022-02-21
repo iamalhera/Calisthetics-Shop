@@ -5,7 +5,7 @@
 }
  .product-page-main-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-areas: "header header header header header"
     "aside content content content content"
     "footer footer footer footer footer";
