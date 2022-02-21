@@ -1,0 +1,11 @@
+@import url('/src/pages/common.css');
+@import url('/styles.css');
+
+.cart-main-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap : 1rem ;
+}
+.cart-container{
+    height : 90vh ;
+}
