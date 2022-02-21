@@ -9,7 +9,7 @@
     --ca-dark-bg-color: #393734;
     --ca-light-bg-color: #f2f2f2;
     --danger-text: #ff0000;
-
+    --card-box-shadow: 0px 1px 10px rgb(146 140 140 / 50%);
 
 }
 *{
@@ -241,7 +241,7 @@
     border-radius: 5px;
 }
 .list-item{
-    font-size : 0.95rem ;
+    font-size : 15px ;
 }
 .list-style-none{
     list-style: none;
@@ -251,7 +251,7 @@
 .card {
     font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
-    box-shadow: 0px 1px 10px rgb(146 140 140 / 50%);
+    box-shadow : var(--card-box-shadow);
     margin : 1.5rem ;
 }
 .card-vertical {
