@@ -13,9 +13,7 @@
     border: 1px solid var(--ca-primary-color-lighter)  ;
     border-radius: 5px;
 }
-.account-toggle .btn-active{
-    background-color : var(--ca-hover-color);
-}
+
 .account-toggle{
     padding : 2rem ;
     border-bottom: 1px solid;
